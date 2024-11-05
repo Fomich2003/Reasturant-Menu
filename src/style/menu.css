@@ -15,17 +15,25 @@ h1 {
     height: 100%;
 }
 
+
 header {
     padding: 15px 0;
+    width: 100%;
 }
 
-.header__wrapper {
+.header__wrapper a{
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     background: linear-gradient(0deg, #ea0f0f, #c9c6aa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .mobile-link {
