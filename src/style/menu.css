@@ -149,7 +149,7 @@ header {
 }
 
 @media all and (max-width: 768px) {
-    .products_wrapper {
+    .products__wrapper {
         padding: 0;
         padding-bottom: 40px;
     }
