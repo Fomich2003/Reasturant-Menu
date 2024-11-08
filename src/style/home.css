@@ -64,5 +64,6 @@
 @media all and (max-width: 420px){
     .menu-box a{
         width: 100%;
+        font-size: 28px;
     }
 }
