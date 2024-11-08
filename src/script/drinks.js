@@ -6,9 +6,9 @@ import renderHotLinks from "../service/renderHotLinks.js";
 import { addGrabbing } from "../service/addGrabing.js";
 
 getData().then(data => {
-    let filteredData = filterData(data, "Страви")
+    let filteredData = filterData(data, "Напої")
     let groupedData = groupData(filteredData)
-    renderHotLinks(grouedpData)
+    renderHotLinks(groupedData)
     renderData(groupedData)
     addGrabbing()
 })
